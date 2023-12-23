@@ -15,7 +15,7 @@ D:/Game Dev/poly-strike/Poly Strikers
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-54634
+54701
 Successfully changed project path to: D:/Game Dev/poly-strike/Poly Strikers
 D:/Game Dev/poly-strike/Poly Strikers
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,11 +49,11 @@ D:/Game Dev/poly-strike/Poly Strikers
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [56208] Host "[IP] 192.168.0.163 [Port] 0 [Flags] 2 [Guid] 3125068248 [EditorId] 3125068248 [Version] 1048832 [Id] WindowsEditor(7,MAIN-PC-BUTTER) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [19564] Host "[IP] 192.168.0.163 [Port] 0 [Flags] 2 [Guid] 574154057 [EditorId] 574154057 [Version] 1048832 [Id] WindowsEditor(7,MAIN-PC-BUTTER) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [56208] Host "[IP] 192.168.0.163 [Port] 0 [Flags] 2 [Guid] 3125068248 [EditorId] 3125068248 [Version] 1048832 [Id] WindowsEditor(7,MAIN-PC-BUTTER) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [19564] Host "[IP] 192.168.0.163 [Port] 0 [Flags] 2 [Guid] 574154057 [EditorId] 574154057 [Version] 1048832 [Id] WindowsEditor(7,MAIN-PC-BUTTER) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 4.96 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 5.29 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.7f1 (b16b3b16c7a0)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/Resources/UnitySubsystems
@@ -69,44 +69,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56088
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56508
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.009077 seconds.
-- Loaded All Assemblies, in  0.308 seconds
+Registered in 0.009148 seconds.
+- Loaded All Assemblies, in  0.291 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.218 seconds
-Domain Reload Profiling: 523ms
-	BeginReloadAssembly (96ms)
+- Finished resetting the current domain, in  0.215 seconds
+Domain Reload Profiling: 503ms
+	BeginReloadAssembly (89ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (29ms)
+	RebuildCommonClasses (27ms)
 	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (55ms)
-	LoadAllAssembliesAndSetupDomain (116ms)
-		LoadAssemblies (94ms)
+	initialDomainReloadingComplete (53ms)
+	LoadAllAssembliesAndSetupDomain (110ms)
+		LoadAssemblies (86ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (114ms)
-			TypeCache.Refresh (113ms)
-				TypeCache.ScanAssembly (101ms)
+		AnalyzeDomain (108ms)
+			TypeCache.Refresh (108ms)
+				TypeCache.ScanAssembly (97ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (218ms)
+	FinalizeReload (215ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (168ms)
+		SetupLoadedEditorAssemblies (167ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
-			SetLoadedEditorAssemblies (8ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (7ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (108ms)
-			ProcessInitializeOnLoadMethodAttributes (41ms)
+			ProcessInitializeOnLoadAttributes (106ms)
+			ProcessInitializeOnLoadMethodAttributes (44ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -117,128 +117,51 @@ Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\Game Dev\poly-strike\Poly Strikers\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\Game Dev\poly-strike\Poly Strikers\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 - Loaded All Assemblies, in  0.500 seconds
-Refreshing native plugins compatible for Editor in 1.35 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.99 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.425 seconds
-Domain Reload Profiling: 923ms
-	BeginReloadAssembly (124ms)
+- Finished resetting the current domain, in  0.417 seconds
+Domain Reload Profiling: 914ms
+	BeginReloadAssembly (125ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (19ms)
+		CreateAndSetChildDomain (16ms)
 	RebuildCommonClasses (27ms)
 	RebuildNativeTypeToScriptingClass (8ms)
 	initialDomainReloadingComplete (37ms)
 	LoadAllAssembliesAndSetupDomain (301ms)
-		LoadAssemblies (224ms)
+		LoadAssemblies (240ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (149ms)
-			TypeCache.Refresh (130ms)
-				TypeCache.ScanAssembly (117ms)
-			ScanForSourceGeneratedMonoScriptInfo (14ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (425ms)
+		AnalyzeDomain (136ms)
+			TypeCache.Refresh (121ms)
+				TypeCache.ScanAssembly (108ms)
+			ScanForSourceGeneratedMonoScriptInfo (11ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (417ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (298ms)
+		SetupLoadedEditorAssemblies (292ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
+			InitializePlatformSupportModulesInManaged (6ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (49ms)
-			ProcessInitializeOnLoadAttributes (213ms)
+			BeforeProcessingInitializeOnLoad (51ms)
+			ProcessInitializeOnLoadAttributes (206ms)
 			ProcessInitializeOnLoadMethodAttributes (15ms)
 			AfterProcessingInitializeOnLoad (10ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 1.61 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 1.44 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3066 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 31 unused Assets / (56.4 KB). Loaded Objects now: 3528.
-Memory consumption went from 114.0 MB to 113.9 MB.
-Total: 2.204000 ms (FindLiveObjects: 0.207100 ms CreateObjectMapping: 0.104600 ms MarkObjects: 1.812700 ms  DeleteObjects: 0.078500 ms)
+Unloading 31 unused Assets / (56.4 KB). Loaded Objects now: 3529.
+Memory consumption went from 114.0 MB to 114.0 MB.
+Total: 2.637400 ms (FindLiveObjects: 0.256200 ms CreateObjectMapping: 0.098700 ms MarkObjects: 2.179300 ms  DeleteObjects: 0.101900 ms)
 
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-IOException: Sharing violation on path D:\Game Dev\poly-strike\Poly Strikers\ProjectSettings\Packages\com.unity.testtools.codecoverage\Settings.json
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <b89873cb176e44a995a4781c7487d410>:0 
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <b89873cb176e44a995a4781c7487d410>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
-  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <b89873cb176e44a995a4781c7487d410>:0 
-  at System.IO.StreamWriter..ctor (System.String path) [0x00008] in <b89873cb176e44a995a4781c7487d410>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string)
-  at System.IO.File.WriteAllText (System.String path, System.String contents) [0x00026] in <b89873cb176e44a995a4781c7487d410>:0 
-  at UnityEditor.SettingsManagement.FileSettingsRepository.Save () [0x000e2] in .\Library\PackageCache\com.unity.settings-manager@2.0.1\Editor\FileSettingsRepository.cs:154 
-  at UnityEditor.AssemblyReloadEvents.OnBeforeAssemblyReload () [0x00017] in <97436df440ca462884c5332c1d8ebbe7>:0 
-
-(Filename: ./Library/PackageCache/com.unity.settings-manager@2.0.1/Editor/FileSettingsRepository.cs Line: 154)
-
-Symbol file LoadedFromMemory doesn't match image D:\Game Dev\poly-strike\Poly Strikers\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Game Dev\poly-strike\Poly Strikers\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.407 seconds
-Refreshing native plugins compatible for Editor in 2.38 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.676 seconds
-Domain Reload Profiling: 1079ms
-	BeginReloadAssembly (152ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (28ms)
-	RebuildCommonClasses (31ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (29ms)
-	LoadAllAssembliesAndSetupDomain (181ms)
-		LoadAssemblies (251ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (13ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (676ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (308ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (4ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (58ms)
-			ProcessInitializeOnLoadAttributes (214ms)
-			ProcessInitializeOnLoadMethodAttributes (17ms)
-			AfterProcessingInitializeOnLoad (9ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Refreshing native plugins compatible for Editor in 6.73 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3059 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 22 unused Assets / (30.5 KB). Loaded Objects now: 3531.
-Memory consumption went from 113.1 MB to 113.1 MB.
-Total: 5.413600 ms (FindLiveObjects: 0.432200 ms CreateObjectMapping: 0.296000 ms MarkObjects: 4.606900 ms  DeleteObjects: 0.076900 ms)
-
-Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -257,114 +180,50 @@ Received Prepare
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\Game Dev\poly-strike\Poly Strikers\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\Game Dev\poly-strike\Poly Strikers\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.359 seconds
-Refreshing native plugins compatible for Editor in 1.89 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.346 seconds
+Refreshing native plugins compatible for Editor in 1.63 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.641 seconds
-Domain Reload Profiling: 1001ms
-	BeginReloadAssembly (136ms)
+- Finished resetting the current domain, in  0.638 seconds
+Domain Reload Profiling: 984ms
+	BeginReloadAssembly (134ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (27ms)
-	RebuildCommonClasses (26ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (25ms)
 	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (26ms)
-	LoadAllAssembliesAndSetupDomain (161ms)
-		LoadAssemblies (224ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (10ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (3ms)
-	FinalizeReload (644ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (315ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (4ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (57ms)
-			ProcessInitializeOnLoadAttributes (219ms)
-			ProcessInitializeOnLoadMethodAttributes (20ms)
-			AfterProcessingInitializeOnLoad (10ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
-Refreshing native plugins compatible for Editor in 1.60 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3059 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 22 unused Assets / (30.5 KB). Loaded Objects now: 3534.
-Memory consumption went from 113.1 MB to 113.1 MB.
-Total: 2.114100 ms (FindLiveObjects: 0.184700 ms CreateObjectMapping: 0.083900 ms MarkObjects: 1.804300 ms  DeleteObjects: 0.039500 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Game Dev\poly-strike\Poly Strikers\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Game Dev\poly-strike\Poly Strikers\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.399 seconds
-Refreshing native plugins compatible for Editor in 1.56 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.662 seconds
-Domain Reload Profiling: 1061ms
-	BeginReloadAssembly (152ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (32ms)
-	RebuildCommonClasses (35ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (30ms)
-	LoadAllAssembliesAndSetupDomain (171ms)
-		LoadAssemblies (245ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (152ms)
+		LoadAssemblies (221ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
 		AnalyzeDomain (9ms)
 			TypeCache.Refresh (4ms)
 				TypeCache.ScanAssembly (0ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (3ms)
-	FinalizeReload (665ms)
+	FinalizeReload (640ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (319ms)
+		SetupLoadedEditorAssemblies (279ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
-			SetLoadedEditorAssemblies (7ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (66ms)
-			ProcessInitializeOnLoadAttributes (209ms)
+			BeforeProcessingInitializeOnLoad (47ms)
+			ProcessInitializeOnLoadAttributes (194ms)
 			ProcessInitializeOnLoadMethodAttributes (17ms)
-			AfterProcessingInitializeOnLoad (10ms)
+			AfterProcessingInitializeOnLoad (11ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Refreshing native plugins compatible for Editor in 1.70 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 2.05 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3059 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 22 unused Assets / (30.5 KB). Loaded Objects now: 3537.
+Unloading 22 unused Assets / (30.5 KB). Loaded Objects now: 3532.
 Memory consumption went from 113.1 MB to 113.1 MB.
-Total: 5.276200 ms (FindLiveObjects: 0.380700 ms CreateObjectMapping: 0.376100 ms MarkObjects: 4.456900 ms  DeleteObjects: 0.060900 ms)
+Total: 2.076300 ms (FindLiveObjects: 0.199900 ms CreateObjectMapping: 0.095200 ms MarkObjects: 1.743000 ms  DeleteObjects: 0.037600 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -380,3 +239,424 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 742.301941 seconds.
+  path: Assets/Objects/CyberPunk Objects/Models/Flame_Mesh.fbx
+  artifactKey: Guid(7af11619db8bcf64c85cea989d116eb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/CyberPunk Objects/Models/Flame_Mesh.fbx using Guid(7af11619db8bcf64c85cea989d116eb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14b06204465382a303c8b9619c1874c4') in 0.336151 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Objects/CyberPunk Objects/Models/SM_Bld_Section_Industrial_03.fbx
+  artifactKey: Guid(a1476807bd0e5b341b1025e8dcee2ec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/CyberPunk Objects/Models/SM_Bld_Section_Industrial_03.fbx using Guid(a1476807bd0e5b341b1025e8dcee2ec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a1d01b1d10ad3a3c8b16b6402b7fc83') in 0.029240 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Objects/CyberPunk Objects/Models/SM_Bld_Section_Wall_01.fbx
+  artifactKey: Guid(749bc6dd643fb764b8c461f2399ae9fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/CyberPunk Objects/Models/SM_Bld_Section_Wall_01.fbx using Guid(749bc6dd643fb764b8c461f2399ae9fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dedc0401f39e2a7775c7189e1054178') in 0.015245 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Objects/CyberPunk Objects/Models/SM_Bld_Large_04.fbx
+  artifactKey: Guid(9e154dd6664f39140a4e1414b5734034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/CyberPunk Objects/Models/SM_Bld_Large_04.fbx using Guid(9e154dd6664f39140a4e1414b5734034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e82a85f4b5e2954dd7e88ea89d4604d') in 0.017845 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Objects/CyberPunk Objects/Models/SM_Bld_Large_Part_03.fbx
+  artifactKey: Guid(22902f62b42c53c438fc7e2c16554e0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/CyberPunk Objects/Models/SM_Bld_Large_Part_03.fbx using Guid(22902f62b42c53c438fc7e2c16554e0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1ce92cd80c5761205d11e9bda3565a3') in 0.016374 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Objects/CyberPunk Objects/Models/SM_Bld_Advanced_01.fbx
+  artifactKey: Guid(bdc10414cdab65544a4ecdc4fd367295) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/CyberPunk Objects/Models/SM_Bld_Advanced_01.fbx using Guid(bdc10414cdab65544a4ecdc4fd367295) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a36e1a338195897f1cbf063e0de434f0') in 0.015384 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Objects/CyberPunk Objects/Models/SM_Bld_Section_Door_03.fbx
+  artifactKey: Guid(43952b211c752ff40828ff20dd2b757b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/CyberPunk Objects/Models/SM_Bld_Section_Door_03.fbx using Guid(43952b211c752ff40828ff20dd2b757b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a28eb6ab75afd2d1b696236cab723f22') in 0.015018 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Objects/CyberPunk Objects/Models/SM_Bld_Background_Lrg_01.fbx
+  artifactKey: Guid(f528e4334b3ce3c468fa3edc3f04156a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/CyberPunk Objects/Models/SM_Bld_Background_Lrg_01.fbx using Guid(f528e4334b3ce3c468fa3edc3f04156a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b9bd9f70debe3faf1f36459798c67a4') in 0.014128 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Objects/CyberPunk Objects/Models/SM_Bld_Section_Door_04.fbx
+  artifactKey: Guid(01d6c4efb3237a04f9d6d6a6cea76877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/CyberPunk Objects/Models/SM_Bld_Section_Door_04.fbx using Guid(01d6c4efb3237a04f9d6d6a6cea76877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48d9bb888cf5f2351bef77b6a3dfdb26') in 0.022392 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Objects/CyberPunk Objects/Models/SkyDome.fbx
+  artifactKey: Guid(1340630fb7a3267499177be33f281f05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/CyberPunk Objects/Models/SkyDome.fbx using Guid(1340630fb7a3267499177be33f281f05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64f0a1c73855be16ae05972a64a8842e') in 0.038560 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Objects/CyberPunk Objects/Models/SM_Bld_Section_Window_04.fbx
+  artifactKey: Guid(eeefc730d2e396641bee2bf389c50dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/CyberPunk Objects/Models/SM_Bld_Section_Window_04.fbx using Guid(eeefc730d2e396641bee2bf389c50dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50d2b56413090d76f10540947b205cd7') in 0.017976 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Objects/CyberPunk Objects/Models/SM_Bld_Large_03.fbx
+  artifactKey: Guid(963e86a8d41cbdd46b8001e4a3084cb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/CyberPunk Objects/Models/SM_Bld_Large_03.fbx using Guid(963e86a8d41cbdd46b8001e4a3084cb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e7c6f28a92926ee5d3744f472370e12') in 0.014169 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Objects/CyberPunk Objects/Models/SM_Bld_Large_Part_02.fbx
+  artifactKey: Guid(8c87bf0e3e149b2409ddbf3e4dc8fde7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/CyberPunk Objects/Models/SM_Bld_Large_Part_02.fbx using Guid(8c87bf0e3e149b2409ddbf3e4dc8fde7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '061ea11b3f342db0503c76b5e3b50fb7') in 0.017012 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Objects/CyberPunk Objects/Models/SM_Bld_Section_Window_01.fbx
+  artifactKey: Guid(b88236636efe2ca4995701a65c836d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/CyberPunk Objects/Models/SM_Bld_Section_Window_01.fbx using Guid(b88236636efe2ca4995701a65c836d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd30ea35206e23484ec042e05a2305d7a') in 0.013554 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Objects/CyberPunk Objects/Models/SM_Bld_Large_05.fbx
+  artifactKey: Guid(c50d909029f9c2f4fa04d8cd74ecc53f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/CyberPunk Objects/Models/SM_Bld_Large_05.fbx using Guid(c50d909029f9c2f4fa04d8cd74ecc53f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd66113d0bf71158a6e9978b4227b4b4b') in 0.016611 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Objects/CyberPunk Objects/Models/SM_Bld_Background_Med_04.fbx
+  artifactKey: Guid(0d35b40420c4af144b64e4dbef97d5bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/CyberPunk Objects/Models/SM_Bld_Background_Med_04.fbx using Guid(0d35b40420c4af144b64e4dbef97d5bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfc76c8ed7b34f98a46c7dc5054898a2') in 0.014138 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Objects/CyberPunk Objects/Models/SM_Bld_Section_Grid_01.fbx
+  artifactKey: Guid(bf13be95bbaf62e4496a2763297cf6e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/CyberPunk Objects/Models/SM_Bld_Section_Grid_01.fbx using Guid(bf13be95bbaf62e4496a2763297cf6e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aad64707ff7ab341da1444e1260a8068') in 0.015191 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Objects/CyberPunk Objects/Models/SM_Bld_Bank_01.fbx
+  artifactKey: Guid(b868092dcc1d8c54daf867db4c9e5065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/CyberPunk Objects/Models/SM_Bld_Bank_01.fbx using Guid(b868092dcc1d8c54daf867db4c9e5065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0464067cf05f13e81216e2474791e704') in 0.046189 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Objects/CyberPunk Objects/Models/SM_Bld_Background_Small_02.fbx
+  artifactKey: Guid(654b2e8552a142b4d824eaf49dd7dbed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/CyberPunk Objects/Models/SM_Bld_Background_Small_02.fbx using Guid(654b2e8552a142b4d824eaf49dd7dbed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32cc91548b87211e8d4e5339f97f1181') in 0.014985 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Objects/CyberPunk Objects/Models/SM_Bld_Large_Part_06.fbx
+  artifactKey: Guid(15fff0ae08b698144912f1a46a79a546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/CyberPunk Objects/Models/SM_Bld_Large_Part_06.fbx using Guid(15fff0ae08b698144912f1a46a79a546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64b3ea1a67762c87a03630592adc178d') in 0.013204 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Objects/CyberPunk Objects/Models/SM_Bld_Large_Part_07.fbx
+  artifactKey: Guid(9ec790e773a079a42a1435d4e40022a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/CyberPunk Objects/Models/SM_Bld_Large_Part_07.fbx using Guid(9ec790e773a079a42a1435d4e40022a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9de1925d6a752cd9b38605dc0359343a') in 0.015743 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Objects/CyberPunk Objects/Models/SM_Bld_LandingPad_01.fbx
+  artifactKey: Guid(81952299d90432a48889398dd6954dc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/CyberPunk Objects/Models/SM_Bld_LandingPad_01.fbx using Guid(81952299d90432a48889398dd6954dc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd7d8ac2a8b74842c5e30f3febee2d8c') in 0.013538 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Objects/CyberPunk Objects/Models/SM_Bld_Large_06.fbx
+  artifactKey: Guid(cc3a36c4a922f9644ab95643249b867e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/CyberPunk Objects/Models/SM_Bld_Large_06.fbx using Guid(cc3a36c4a922f9644ab95643249b867e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86eb9a529708fd5667212b9a96543eaf') in 0.015067 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Objects/CyberPunk Objects/Models/SM_Bld_Section_Window_02.fbx
+  artifactKey: Guid(3dcbe45bb15b9b449b51a742a8024437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/CyberPunk Objects/Models/SM_Bld_Section_Window_02.fbx using Guid(3dcbe45bb15b9b449b51a742a8024437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3c39fc3a5ac9ede672690566ad52184') in 0.014174 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Objects/CyberPunk Objects/Models/SM_Bld_Background_Lrg_03.fbx
+  artifactKey: Guid(c991f5eb02e3c8c4793c1f118c363e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/CyberPunk Objects/Models/SM_Bld_Background_Lrg_03.fbx using Guid(c991f5eb02e3c8c4793c1f118c363e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5118a0dad84a9e789db524acfcba764') in 0.014762 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Objects/CyberPunk Objects/Models/SM_Bld_Large_02.fbx
+  artifactKey: Guid(39c6ce44c89129e40a5cd37321c7e437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/CyberPunk Objects/Models/SM_Bld_Large_02.fbx using Guid(39c6ce44c89129e40a5cd37321c7e437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc6f930620f953a7a55f165bfe528320') in 0.013686 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Objects/CyberPunk Objects/Models/SM_Bld_Roof_Pagoda_01.fbx
+  artifactKey: Guid(721278600aa4a854fb5be8d2686a9eea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/CyberPunk Objects/Models/SM_Bld_Roof_Pagoda_01.fbx using Guid(721278600aa4a854fb5be8d2686a9eea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49f42ff63b7c19fcaba0687cd3ff2779') in 0.016262 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Objects/CyberPunk Objects/Models/SM_Bld_Raised_02.fbx
+  artifactKey: Guid(4a61bb63a59b2654a8b66ac47d3d8558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/CyberPunk Objects/Models/SM_Bld_Raised_02.fbx using Guid(4a61bb63a59b2654a8b66ac47d3d8558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34da673031fdfb73e312cebe435b262a') in 0.016224 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Objects/CyberPunk Objects/Models/SM_Bld_Section_Door_02.fbx
+  artifactKey: Guid(efa1a01aed9f84c4499c4e602773b24f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/CyberPunk Objects/Models/SM_Bld_Section_Door_02.fbx using Guid(efa1a01aed9f84c4499c4e602773b24f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a1ba51992b25aa80c2e24b613170b2b') in 0.015697 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Objects/CyberPunk Objects/Models/SM_Bld_City_Wall_01.fbx
+  artifactKey: Guid(b8258342a3df5b14cac241f34dfe4c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/CyberPunk Objects/Models/SM_Bld_City_Wall_01.fbx using Guid(b8258342a3df5b14cac241f34dfe4c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eb57fa013738a781086cbb668168365') in 0.013976 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Objects/CyberPunk Objects/Models/SM_Bld_Power_02.fbx
+  artifactKey: Guid(9c3186c17ad0dcb48aaeb5cb28828991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/CyberPunk Objects/Models/SM_Bld_Power_02.fbx using Guid(9c3186c17ad0dcb48aaeb5cb28828991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb4bf538c0235f7f27bb97f92862a4b3') in 0.014199 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Objects/CyberPunk Objects/Models/FX_Plane_Simple.fbx
+  artifactKey: Guid(2e4b92c06b7545a4a8da90f7352811b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/CyberPunk Objects/Models/FX_Plane_Simple.fbx using Guid(2e4b92c06b7545a4a8da90f7352811b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9671233858a22d5a961fe185985967e2') in 0.014391 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Objects/CyberPunk Objects/Models/SM_Bld_Section_Wall_05.fbx
+  artifactKey: Guid(43b5c35c7580fb449afe847c32105898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/CyberPunk Objects/Models/SM_Bld_Section_Wall_05.fbx using Guid(43b5c35c7580fb449afe847c32105898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '646bc90b26b74c2be2c8ffb782e0a151') in 0.014507 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Objects/CyberPunk Objects/Models/SM_Bld_Section_Corner_02.fbx
+  artifactKey: Guid(be50b73c53ac9074887df5529a295999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/CyberPunk Objects/Models/SM_Bld_Section_Corner_02.fbx using Guid(be50b73c53ac9074887df5529a295999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f44c3fdcdc45a24592540a637f591da') in 0.014265 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Objects/CyberPunk Objects/Models/SM_Bld_Section_Door_05.fbx
+  artifactKey: Guid(80614f8bf14ff3e4292ee9a2b75de99f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/CyberPunk Objects/Models/SM_Bld_Section_Door_05.fbx using Guid(80614f8bf14ff3e4292ee9a2b75de99f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e4b2a803f00ce441d2a9303941d51d0') in 0.026688 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Objects/CyberPunk Objects/Models/SM_Bld_Large_Part_05.fbx
+  artifactKey: Guid(b28ffe9afd2c9b647b5ff5b8d1fb0562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/CyberPunk Objects/Models/SM_Bld_Large_Part_05.fbx using Guid(b28ffe9afd2c9b647b5ff5b8d1fb0562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc99f8f670ac6edc8ca6a4d4809aa820') in 0.016626 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Objects/CyberPunk Objects/Models/SM_Bld_Background_Med_03.fbx
+  artifactKey: Guid(0d86c8dfab05b024797acf90ee51f5a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/CyberPunk Objects/Models/SM_Bld_Background_Med_03.fbx using Guid(0d86c8dfab05b024797acf90ee51f5a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a180405a93c04e77f6cc8afe9122ca6') in 0.014508 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Objects/CyberPunk Objects/Models/SM_Bld_Large_Part_04.fbx
+  artifactKey: Guid(4a9f21313a446374192a3b15cf30a7ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/CyberPunk Objects/Models/SM_Bld_Large_Part_04.fbx using Guid(4a9f21313a446374192a3b15cf30a7ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18ffef9f27ac89d77991b2374670d8e4') in 0.014427 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Objects/CyberPunk Objects/Models/SM_Bld_Advanced_Doorway_01.fbx
+  artifactKey: Guid(f61f5f32d37f7914cbfa94de0536557f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/CyberPunk Objects/Models/SM_Bld_Advanced_Doorway_01.fbx using Guid(f61f5f32d37f7914cbfa94de0536557f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '597c07a7baff817a36e58cbd9851dde9') in 0.014251 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Objects/CyberPunk Objects/Models/SM_Bld_City_Wall_Tower_01.fbx
+  artifactKey: Guid(de04fe5f5ea058c4196ccbcbac489ac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/CyberPunk Objects/Models/SM_Bld_City_Wall_Tower_01.fbx using Guid(de04fe5f5ea058c4196ccbcbac489ac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35930e0b1e745338687f2a7bc4423c69') in 0.014907 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Objects/CyberPunk Objects/Models/SM_Bld_FoodHole_01.fbx
+  artifactKey: Guid(8cdb1009c1e155341a7168c24195ff6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/CyberPunk Objects/Models/SM_Bld_FoodHole_01.fbx using Guid(8cdb1009c1e155341a7168c24195ff6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd1584b519377e01eebeb7bd43d98250') in 0.017559 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Objects/CyberPunk Objects/Models/FX_Circle.fbx
+  artifactKey: Guid(5376f6f811874234db96aaf1d4802c86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/CyberPunk Objects/Models/FX_Circle.fbx using Guid(5376f6f811874234db96aaf1d4802c86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afbf074e6822934c7a3404468dc7924d') in 0.014248 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Objects/CyberPunk Objects/Models/SM_Bld_Section_Door_06.fbx
+  artifactKey: Guid(34281e97dc70ec8459cf7158cdea756c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/CyberPunk Objects/Models/SM_Bld_Section_Door_06.fbx using Guid(34281e97dc70ec8459cf7158cdea756c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66eca625b1386b69740199a9eb120420') in 0.013510 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Objects/CyberPunk Objects/Models/SM_Bld_Section_Wall_03.fbx
+  artifactKey: Guid(63084df5b7210084182be724fb923879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/CyberPunk Objects/Models/SM_Bld_Section_Wall_03.fbx using Guid(63084df5b7210084182be724fb923879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75188529773f90d50ef246fdb4b9bda4') in 0.012771 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 2.131837 seconds.
+  path: Assets/Objects/CyberPunk Objects/Materials/PolygonScifi_02_A.mat
+  artifactKey: Guid(5846f1c3c4e5f1e42b95451831844600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/CyberPunk Objects/Materials/PolygonScifi_02_A.mat using Guid(5846f1c3c4e5f1e42b95451831844600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2928b0af7a46731a013d4712993766a9') in 0.310735 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Objects/CyberPunk Objects/Materials/PolygonScifi_04_A.mat
+  artifactKey: Guid(129704b08c93bae4a89513e33c890d5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/CyberPunk Objects/Materials/PolygonScifi_04_A.mat using Guid(129704b08c93bae4a89513e33c890d5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19168738698072601cfef03ad6b607ff') in 0.056454 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 1.740624 seconds.
+  path: Assets/Objects/CyberPunk Objects/Textures/Dirt_01.png
+  artifactKey: Guid(10098b6ab07bb81478f96a9c740c4fec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/CyberPunk Objects/Textures/Dirt_01.png using Guid(10098b6ab07bb81478f96a9c740c4fec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9891c2d7f9225b431a194a7ac8b7178') in 0.031664 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Objects/CyberPunk Objects/Textures/PolygonScifi_Background_Building_Emissive.png
+  artifactKey: Guid(1c089cfa53f963a4ebbc0a512b6d8443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/CyberPunk Objects/Textures/PolygonScifi_Background_Building_Emissive.png using Guid(1c089cfa53f963a4ebbc0a512b6d8443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f113419aa48c3fe2a1e9b9315655993') in 0.021882 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Objects/CyberPunk Objects/Textures/PolygonSciFiCity_Texture_Normal.png
+  artifactKey: Guid(fff3796fd3630f64890b09296fcb8f85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/CyberPunk Objects/Textures/PolygonSciFiCity_Texture_Normal.png using Guid(fff3796fd3630f64890b09296fcb8f85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '480a13afad3720fb99cb39249feac792') in 0.055690 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Objects/CyberPunk Objects/Textures/SphereGlow.png
+  artifactKey: Guid(516a2a21b5e345f408e5be91be36ebb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/CyberPunk Objects/Textures/SphereGlow.png using Guid(516a2a21b5e345f408e5be91be36ebb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1a43f82f496118c0aa722f94a0dfd9c') in 0.092759 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Objects/CyberPunk Objects/Textures/PolygonSciFi_Road_Normal.png
+  artifactKey: Guid(3249a541db4d5034cb4c8c138cd11557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/CyberPunk Objects/Textures/PolygonSciFi_Road_Normal.png using Guid(3249a541db4d5034cb4c8c138cd11557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb36ca50ce7c6c332a52713a08cb859f') in 0.024377 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Objects/CyberPunk Objects/Textures/Tansparent_Line_Full.png
+  artifactKey: Guid(32cbeb9527524264d95c3560939d58c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/CyberPunk Objects/Textures/Tansparent_Line_Full.png using Guid(32cbeb9527524264d95c3560939d58c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4189bf7d87392d23ed493b358a7bcfb2') in 0.010840 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
